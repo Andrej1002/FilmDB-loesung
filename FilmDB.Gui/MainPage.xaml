@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewmodels="clr-namespace:FilmDB.Core.ViewModels;assembly=FilmDB.Core"
+             xmlns:models="clr-namespace:FilmDB.Core.Models;assembly=FilmDB.Core"
+             x:DataType="viewmodels:MainViewModel"
+             Shell.BackgroundColor="{AppThemeBinding Dark={StaticResource PrimaryDark}, Light={StaticResource Primary}}"
+             x:Class="FilmDB.Gui.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!-- converter -->
+            <toolkit:IsNullConverter x:Key="IsNullConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior
+                EventName="Appearing"
+                Command="{Binding LoadCommand}" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem Command="{Binding RandomCommand}" 
+                     IconImageSource="flash.png" />
+
+    </ContentPage.ToolbarItems>
+
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto" Margin="15">
+
+        <Label Text="Filmempfehlung für heute" HorizontalTextAlignment="Center" FontSize="Medium" />
+
+        <Label Margin="20" Text="{Binding RandomFilm.Name, FallbackValue='???'}" Grid.Row="1" FontSize="Large" 
+               HorizontalTextAlignment="Center"
+               TextColor="{AppThemeBinding Dark={StaticResource PrimaryDark}, Light={StaticResource Primary}}" />
+
+        <Label IsVisible="{Binding RandomFilm, Converter={StaticResource IsNullConverter}}" Margin="10,0" Grid.Row="2" Text="Bitte klicken Sie auf das Blitzsymbol um eine Filmempfehlung zu erhalten." />
+
+        <CollectionView Margin="10,20" Grid.Row="3" ItemsSource="{Binding FilmCollection}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Film">
+                    <Grid ColumnDefinitions="*,*">
+                        <Label Text="{Binding Name}" FontSize="Subtitle" />
+                        <Label Grid.Column="1" Text="{Binding Duration, StringFormat='{0} min'}" FontSize="Subtitle" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Gui/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Gui/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/FilmDB.Gui.app

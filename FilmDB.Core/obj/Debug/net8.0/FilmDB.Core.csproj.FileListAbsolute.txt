@@ -1,0 +1,13 @@
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/bin/Debug/net8.0/FilmDB.Core.deps.json
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/bin/Debug/net8.0/FilmDB.Core.dll
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/bin/Debug/net8.0/FilmDB.Core.pdb
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/FilmDB.Core.csproj.AssemblyReference.cache
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/FilmDB.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/FilmDB.Core.AssemblyInfoInputs.cache
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/FilmDB.Core.AssemblyInfo.cs
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/FilmDB.Core.csproj.CoreCompileInputs.cache
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/FilmDB.Core.sourcelink.json
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/FilmDB.Core.dll
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/refint/FilmDB.Core.dll
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/FilmDB.Core.pdb
+/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Core/obj/Debug/net8.0/ref/FilmDB.Core.dll

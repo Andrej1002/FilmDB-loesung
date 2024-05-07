@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="FilmDB.Gui.app/Contents/MacOS/FilmDB.Gui">
+      <BCSymbolMapName>FilmDB.Gui.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>FilmDB.Gui.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Gui/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>FilmDB.Gui.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/andrejsmiljanic/Desktop/Git/film/FilmDB.Gui</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

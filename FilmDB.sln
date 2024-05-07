@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmDB.Gui", "FilmDB.Gui\FilmDB.Gui.csproj", "{8D425C3F-48F4-4499-B403-2F210E62A3C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmDB.Core", "FilmDB.Core\FilmDB.Core.csproj", "{D1327FA8-5093-47C2-B1AA-0CD532338FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D425C3F-48F4-4499-B403-2F210E62A3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D425C3F-48F4-4499-B403-2F210E62A3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D425C3F-48F4-4499-B403-2F210E62A3C4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8D425C3F-48F4-4499-B403-2F210E62A3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D425C3F-48F4-4499-B403-2F210E62A3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D425C3F-48F4-4499-B403-2F210E62A3C4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D1327FA8-5093-47C2-B1AA-0CD532338FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1327FA8-5093-47C2-B1AA-0CD532338FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1327FA8-5093-47C2-B1AA-0CD532338FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1327FA8-5093-47C2-B1AA-0CD532338FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C6AEFF6-81EB-42EB-862D-1443190E49DB}
+	EndGlobalSection
+EndGlobal
